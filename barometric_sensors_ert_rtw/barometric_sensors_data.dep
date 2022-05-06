@@ -1,0 +1,50 @@
+barometric_sensors_data.o: \
+ H:/GF_AERO/LV-1/lv-1/barometric_sensors_ert_rtw/barometric_sensors_data.c \
+ H:/GF_AERO/LV-1/lv-1/barometric_sensors_ert_rtw/barometric_sensors.h \
+ H:/GF_AERO/LV-1/lv-1/barometric_sensors_ert_rtw/rtwtypes.h \
+ H:/Programms/MATLAB/simulink/include/rtw_extmode.h \
+ H:/Programms/MATLAB/simulink/include/sysran_types.h \
+ H:/Programms/MATLAB/simulink/include/rtw_continuous.h \
+ H:/GF_AERO/LV-1/lv-1/barometric_sensors_ert_rtw/rtwtypes.h \
+ H:/Programms/MATLAB/simulink/include/rtw_solver.h \
+ H:/Programms/MATLAB/simulink/include/rtw_continuous.h \
+ C:/PROGRA~3/MATLAB/SUPPOR~1/R2022a/toolbox/target/SUPPOR~1/ARDUIN~2/include/MW_arduino_digitalio.h \
+ H:/GF_AERO/LV-1/lv-1/barometric_sensors_ert_rtw/barometric_sensors_types.h \
+ H:/GF_AERO/LV-1/lv-1/barometric_sensors_ert_rtw/MW_target_hardware_resources.h \
+ C:/PROGRA~3/MATLAB/SUPPOR~1/R2022a/toolbox/target/SUPPOR~1/ARDUIN~1/include/MW_ArduinoHWInit.h \
+ C:/PROGRA~3/MATLAB/SUPPOR~1/R2022a/toolbox/target/SUPPOR~1/ARDUIN~1/SCHEDU~1/include/arduinoAVRScheduler.h \
+ C:/ProgramData/MATLAB/SupportPackages/R2022a/aIDE/hardware/arduino/avr/cores/arduino/Arduino.h \
+ C:/ProgramData/MATLAB/SupportPackages/R2022a/aIDE/hardware/arduino/avr/cores/arduino/binary.h \
+ C:/ProgramData/MATLAB/SupportPackages/R2022a/aIDE/hardware/arduino/avr/variants/mega/pins_arduino.h
+
+H:/GF_AERO/LV-1/lv-1/barometric_sensors_ert_rtw/barometric_sensors.h:
+
+H:/GF_AERO/LV-1/lv-1/barometric_sensors_ert_rtw/rtwtypes.h:
+
+H:/Programms/MATLAB/simulink/include/rtw_extmode.h:
+
+H:/Programms/MATLAB/simulink/include/sysran_types.h:
+
+H:/Programms/MATLAB/simulink/include/rtw_continuous.h:
+
+H:/GF_AERO/LV-1/lv-1/barometric_sensors_ert_rtw/rtwtypes.h:
+
+H:/Programms/MATLAB/simulink/include/rtw_solver.h:
+
+H:/Programms/MATLAB/simulink/include/rtw_continuous.h:
+
+C:/PROGRA~3/MATLAB/SUPPOR~1/R2022a/toolbox/target/SUPPOR~1/ARDUIN~2/include/MW_arduino_digitalio.h:
+
+H:/GF_AERO/LV-1/lv-1/barometric_sensors_ert_rtw/barometric_sensors_types.h:
+
+H:/GF_AERO/LV-1/lv-1/barometric_sensors_ert_rtw/MW_target_hardware_resources.h:
+
+C:/PROGRA~3/MATLAB/SUPPOR~1/R2022a/toolbox/target/SUPPOR~1/ARDUIN~1/include/MW_ArduinoHWInit.h:
+
+C:/PROGRA~3/MATLAB/SUPPOR~1/R2022a/toolbox/target/SUPPOR~1/ARDUIN~1/SCHEDU~1/include/arduinoAVRScheduler.h:
+
+C:/ProgramData/MATLAB/SupportPackages/R2022a/aIDE/hardware/arduino/avr/cores/arduino/Arduino.h:
+
+C:/ProgramData/MATLAB/SupportPackages/R2022a/aIDE/hardware/arduino/avr/cores/arduino/binary.h:
+
+C:/ProgramData/MATLAB/SupportPackages/R2022a/aIDE/hardware/arduino/avr/variants/mega/pins_arduino.h:

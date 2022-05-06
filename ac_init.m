@@ -1,3 +1,4 @@
+ac_design;
 aileron = fixedWingSurface('aileron','on','Asymmetric',[-20,20]);
 elevator = fixedWingSurface('elevator','on','Symmetric',[-20,20]);
 rudder = fixedWingSurface('rudder','on','Symmetric',[-20,20]);
@@ -24,6 +25,8 @@ aircraft.Surfaces = [aileron, elevator, rudder];
 aircraft.Thrusts = [propellerR,propellerL];
 
 %% states
+pressure = 95500; %Pa
+
 state = fixedWingState(aircraft);
 state.AngleSystem="Degrees";
 state.Mass = mass;
@@ -31,4 +34,8 @@ state.U = V_c;
 state.Inertia.X = [0.00666; 0; 0];
 state.Inertia.Y = [0; 0.00474; 0];
 state.Inertia.Z = [0; 0; -0.00262];
-state.XD=-10;
+state.GroundHeight=-50;
+state.AltitudeMSL = -state.GroundHeight + 630;
+state.Alpha = a_c;
+
+R_L = 287;

@@ -74,7 +74,7 @@ EXECUTE = $(PRODUCT)
 
 
 # Builder: GMAKE Utility
-MAKE_PATH = C:/Program Files/MATLAB/R2022a/bin/win64
+MAKE_PATH = H:/Programms/MATLAB/bin/win64
 MAKE = $(MAKE_PATH)/gmake
 
 
@@ -193,6 +193,6 @@ export ARDUINO_BASESUPPORTPKG_ROOT
 .PHONY : all
 all : 
 	@echo "### Generating static library."
-	"$(MAKE)" -j5 -C "$(SLMKPATH)" SHELL="$(SHELL)" -f avrcore.mk all
-	"$(MAKE)" -j5 SHELL="$(SHELL)" -f "$(MODELMK)" all
+	"$(MAKE)" -j7 -C "$(SLMKPATH)" SHELL="$(SHELL)" -f avrcore.mk all
+	"$(MAKE)" -j7 SHELL="$(SHELL)" -f "$(MODELMK)" all
 
